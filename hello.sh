@@ -1,3 +1,3 @@
 #!/bin/bash
 echo "Hello from Jenkins build!"
-echo "Test commit"
+echo "Test commit demo"
