@@ -1,0 +1,27 @@
+Started by user ShyamKumaran
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/MyBashProject
+The recommended git tool is: NONE
+using credential 3dd5c230-03b7-436d-9535-adf7be991a21
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/MyBashProject/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Shyam3098/My-Bash-sccripting_jenkins.git # timeout=10
+Fetching upstream changes from https://github.com/Shyam3098/My-Bash-sccripting_jenkins.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/Shyam3098/My-Bash-sccripting_jenkins.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 326b36d4a569b45abecf485e5e0a3bd9f54722d0 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 326b36d4a569b45abecf485e5e0a3bd9f54722d0 # timeout=10
+Commit message: "Update hello.sh"
+ > git rev-list --no-walk 326b36d4a569b45abecf485e5e0a3bd9f54722d0 # timeout=10
+No emails were triggered.
+[MyBashProject] $ /bin/bash /tmp/jenkins3472760580286557901.sh
+Hello from Jenkins build!
+Test commit demo 2
+Testing Email Notification
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: shyamgjk@gmail.com
